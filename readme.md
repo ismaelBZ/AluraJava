@@ -11,13 +11,13 @@
     - All Java program need the same name as the class inside
     - All classes need to start with uppercase letter
     - All code in java need's to be inside a class
-    - Main method is required in every code and eny method inside it will be executed
-    - In cmd-prompt javac filename.js -> compile file -> filename.class
+    - Main method is required in every code and any method inside it will be executed
+    - In cmd-prompt javac filename.java -> compile file -> filename.class
     - In cmd-prompt java filename -> run filename.class (bytecode)
 
-## Bits anda Bytes
+## Bits anda Bytes                                             Primitives Data Types
 
-    1 bit   = 0 ou 1    =   2^1     -> 2 opções possíveis           (true)(false)
+    1 bit   = 0 ou 1    =   2^1     -> 2 opções possíveis           (boolean)
     1 byte  = 8 bits    =   2^8     -> 256 combinações              (byte)
     2 bytes = 16 bits   =   2^16    -> 65536 combinações            (short)(char)
     4 bytes = 32bits    =   2^32    -> +2Bilhões combinações        (int)(float)
