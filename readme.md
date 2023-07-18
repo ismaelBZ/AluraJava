@@ -28,6 +28,8 @@
     1MB =   2^20    = 1.048.576 bytes
     1GB =   2^30    = 1.073.741.824 bytes
 
+    obs: .java files are compiled in bytecode .class extention files to be read by java virtual machine. The name bytecode is because the virtual machine read the code in operations codes and that opcode measure exactly 1byte, so virtual machine read bytecodes flowing byte by byte
+
 ## VsCode configs
 
     - Instal Extension Pack for Java
