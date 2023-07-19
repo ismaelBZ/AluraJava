@@ -18,8 +18,8 @@
 ## Bits anda Bytes                                             Primitives Data Types
 
     1 bit   = 0 ou 1    =   2^1     -> 2 opções possíveis           (boolean)
-    1 byte  = 8 bits    =   2^8     -> 256 combinações              (byte)
-    2 bytes = 16 bits   =   2^16    -> 65536 combinações            (short)(char)
+    1 byte  = 8 bits    =   2^8     -> 256 combinações              (byte)              (-128   -   +127)
+    2 bytes = 16 bits   =   2^16    -> 65536 combinações            (short)(char)       (-32768 -   +32767)
     4 bytes = 32bits    =   2^32    -> +2Bilhões combinações        (int)(float)
     8 bytes = 64bits    =   2^64    -> +1Quintilhão Combinações     (long)(double)
 

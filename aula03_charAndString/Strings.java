@@ -5,8 +5,8 @@ public class Strings {
     public static void main(String[] args) {
 
         char letraAMinuscula = 'a'; // Todo char vai entre aspas simples;
-        char letraBMinuscula = 98; // O char também pode ser definido pela numeraçao do seu encoding;
-        char letraCMinuscula = (char) (letraBMinuscula + 1); // É necessário fazer o casting, pq int usa 4bytes e o char
+        char letraBMinuscula = 98; // O char também pode ser definido pela numeração do encoding UTF-8
+        char letraCMinuscula = (char) (letraBMinusculo + 1);  // Quando acontece a soma letraBMinusculo é do tipo char(2Bytes) e 1 é do tipo integer(4bytes), resultando em um número do tipo integer, logo um integer não cabe no tipo char, por isso, é necessário fazer o casting;
                                                              // 2bytes
 
         System.out.print(letraAMinuscula + " ");

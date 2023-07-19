@@ -28,8 +28,8 @@ public class IntFloatDoubleCast {
         /*  ERRORS  ERRORS  ERRORS */
 
         //Compile Error
-        // int integerValue = 1.0  // It will not compile because java can't storage a double value (8 bytes) in an integer type (4 bytes)
-
+        // int integerValue = 1.0  // It will not compile because java can't storage a double value (8 bytes) in an integer type (4 bytes). If its necessarie, can be done with casting.
+        
         //Operation Error
         double division = 5 / 2;
         System.out.println(division); // That occurs because java realize the two integers division and return and casted integer as a division too, after that value is assigned to the double variable
