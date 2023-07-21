@@ -17,7 +17,7 @@ public class IntFloatDoubleCast {
         int castedNumber = (int) 4.0; // 4.0 is a double and is casted in an integer
         System.out.println(castedNumber);
 
-        // Java recognize floating numbers as doubles, so need to cast them or describe
+        // Java recognize floating numbers as doubles, so need to declare them as float
         // it with letter f after the number
         float pi = (float) 3.14159;
         System.out.println("O valor aproximado de PI é: " + pi);
