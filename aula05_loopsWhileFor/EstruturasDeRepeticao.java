@@ -21,5 +21,11 @@ public class EstruturasDeRepeticao {
             }
             System.out.println();
         }
+
+        System.out.println();
+
+        for (int number = 3; number < 100; number = number + 3) {
+            System.out.print(number + " ");
+        }
     }
 }
