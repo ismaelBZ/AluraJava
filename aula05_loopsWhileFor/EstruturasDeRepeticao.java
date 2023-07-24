@@ -16,10 +16,8 @@ public class EstruturasDeRepeticao {
         /* FOR ENCADEADO */
 
         for (int linha = 1; linha <= 10; linha++) {
-            for( int coluna = 1; coluna <= 10; coluna++) {
-                if (coluna <= linha) {
-                    System.out.print(coluna + " ");
-                }
+            for( int coluna = 1; coluna <= linha; coluna++) {
+                System.out.print(coluna + " ");
             }
             System.out.println();
         }
