@@ -12,6 +12,12 @@ public class TestaConta{
         System.out.println(firstAccount);  // Is the same reference, so is the same object
         System.out.println(secondAccount); // Is the same reference, so is the same object
         
+
+        // Testing methods
+        firstAccount.deposit(100);
+        boolean wasDeposited = firstAccount.withdrawn(50);
+        System.out.println(wasDeposited);
+        System.out.println(firstAccount.balance); 
     }
 
 }
