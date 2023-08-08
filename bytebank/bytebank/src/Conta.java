@@ -1,5 +1,8 @@
 public class Conta { /* This class has four attributes, properties or fields */
-    String owner;
+    Client owner;
+    /* Client owner = new Client();     This allows the same client to have more than one account here, 
+                                        making the solution unviable, 
+                                        but for other types of relationship, very viable */
     int agency = 17; // Default value
     int number;
     double balance;
